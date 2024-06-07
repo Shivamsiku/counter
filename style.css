@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.counter{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.counter h1{
+  padding: 50px 0 50px 0px;
+}
+#increment{
+    cursor: pointer;
+    padding: 7px 20px ;
+    border-radius: 10px;
+    background-color:#008000;
+    color: #fff!important;
+    font-size: 25px;
+    border: 1px solid  rgb(62, 116, 8);
+}
+.button-div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#value{
+    font-size: 25px;
+    cursor: pointer;
+    padding: 8px 52px ;
+    border-radius: 10px;
+    background-color:#ffbb99;
+    color: rgb(0, 0, 0,2);
+    
+    border: 1px solid  rgb(71, 110, 31);
+}
+#decrement{
+    cursor: pointer;
+    padding: 7px 20px ;
+    border-radius: 10px;
+    background-color:#008000;
+    color: #fff!important;
+    font-size: 25px;
+    border: 1px solid  rgb(62, 116, 8);
+}
+#reset{
+    cursor: pointer;
+ padding: 6px 26px ;
+ border-radius: 10px;
+ background-color: #008000;
+ color:  #fff!important;
+ font-size: 25px;
+ border: 1px solid  rgb(62, 116, 8);
+}
+.reset-div{
+    padding: 30px 15px 0 0px;
+}
